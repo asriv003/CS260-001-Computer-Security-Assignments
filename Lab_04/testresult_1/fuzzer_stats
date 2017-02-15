@@ -1,0 +1,27 @@
+start_time        : 1487134686
+last_update       : 1487135314
+fuzzer_pid        : 30838
+cycles_done       : 552
+execs_done        : 3948019
+execs_per_sec     : 6762.35
+paths_total       : 14
+paths_favored     : 6
+paths_found       : 13
+paths_imported    : 0
+max_depth         : 6
+cur_path          : 10
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.03%
+unique_crashes    : 3
+unique_hangs      : 1
+last_path         : 1487134751
+last_crash        : 1487135069
+last_hang         : 1487134692
+execs_since_crash : 1469137
+exec_timeout      : 20
+afl_banner        : afl_strcmp
+afl_version       : 2.39b
+command_line      : ./afl-fuzz -i /home/abhishek/Software/afl-2.39b/abhi_testcases/ -o /home/abhishek/Software/afl-2.39b/testresult_3 ./afl_strcmp
